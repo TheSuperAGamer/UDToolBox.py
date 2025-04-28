@@ -62,3 +62,6 @@ class UDToolBox:
     for key, val in d.items():
       a[val] = key
     return a
+  
+  def func_list():
+    return ["Uppercase (upc)","Lowercase (lwc)","Sort in ascending order (asc)","Numbered list (lister)","Addition (add)","Multiplication (mult)","Mathematical mean (mean)","Mathematical mode (mode)","Mathematical median (median)"]
